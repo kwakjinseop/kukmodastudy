@@ -239,7 +239,7 @@ export default function studymainpage() {
   )
 }
 
-function CircuitBoardIcon(props) {
+function CircuitBoardIcon(props:any) {
   return (
     <svg
       {...props}
@@ -263,7 +263,7 @@ function CircuitBoardIcon(props) {
 }
 
 
-function MessageCircleIcon(props) {
+function MessageCircleIcon(props:any) {
   return (
     <svg
       {...props}
@@ -283,7 +283,7 @@ function MessageCircleIcon(props) {
 }
 
 
-function SearchIcon(props) {
+function SearchIcon(props:any) {
   return (
     <svg
       {...props}
@@ -304,7 +304,7 @@ function SearchIcon(props) {
 }
 
 
-function StepForwardIcon(props) {
+function StepForwardIcon(props:any) {
   return (
     <svg
       {...props}
@@ -325,7 +325,7 @@ function StepForwardIcon(props) {
 }
 
 
-function ThumbsUpIcon(props) {
+function ThumbsUpIcon(props:any) {
   return (
     <svg
       {...props}
