@@ -29,14 +29,17 @@ export default function studymainpage() {
       <header className="flex items-center justify-between bg-primary px-6 py-4 text-primary-foreground">
         <div className="flex items-center gap-4">
           <Link href="#" className="text-xl font-bold" prefetch={false}>
-            Study Group
+            국모다
           </Link>
           <nav className="hidden md:flex gap-4">
             <Link href="#" className="hover:text-primary-foreground/80" prefetch={false}>
-              Board
+              국비 부트 캠프
             </Link>
             <Link href="#" className="hover:text-primary-foreground/80" prefetch={false}>
-              Progress
+              스터디 및 프로젝트 정보
+            </Link>
+            <Link href="#" className="hover:text-primary-foreground/80" prefetch={false}>
+              취업 및 공모전 정보
             </Link>
           </nav>
         </div>
