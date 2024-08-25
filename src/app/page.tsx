@@ -27,7 +27,9 @@ import DropdownMenu from "@/components/ui/DropDownMenu"
 import LoginBtn from "@/components/ui/LoginBtn"
 
 
+
 export default function studymainpage() {
+  
   return (
     <div className="flex h-screen w-full flex-col">
       <header className="flex items-center justify-between bg-primary px-6 py-4 text-primary-foreground">
