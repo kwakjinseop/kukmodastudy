@@ -14,7 +14,7 @@ const handler = NextAuth({
     }),
   ],
 
-  secret: process.env.NEXTAUTH_SECRET, 
+  secret: 'Kukmoda123@', 
 });
 
 export { handler as GET, handler as POST };
