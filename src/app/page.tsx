@@ -24,6 +24,8 @@ import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
 import DropdownMenu from "@/components/ui/DropDownMenu"
+import LoginBtn from "@/components/ui/LoginBtn"
+
 
 export default function studymainpage() {
   return (
@@ -37,17 +39,7 @@ export default function studymainpage() {
             <SearchIcon className="h-5 w-5" />
             <span className="sr-only">Search</span>
           </Button>
-          <Button variant="ghost" size="icon" className="rounded-full">
-            <img
-              src="/placeholder.svg"
-              width="32"
-              height="32"
-              className="rounded-full"
-              alt="Avatar"
-              style={{ aspectRatio: "32/32", objectFit: "cover" }}
-            />
-            <span className="sr-only">Toggle user menu</span>
-          </Button>
+          <LoginBtn></LoginBtn>
         </div>
       </header>
       <div className="flex flex-1">
