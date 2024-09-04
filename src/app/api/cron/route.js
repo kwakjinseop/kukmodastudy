@@ -8,7 +8,7 @@ export default async function handler(req, res) {
 
   // 보낼 메시지 데이터
   const messageData = {
-    text: "오늘 모각스에 참여하실 분들은 \nzep에 입장해주시고 본 스레드에 오늘의 공부 목표를 답글로 적어주세요.\n\nZEP 링크 : https://zep.us/play/yBdEwz\n\nZEPZEP\n국모다it 메타버스 캠퍼스 | 쉽고 재미있는 메타버스 ZEP\n공부하고 싶다면 누구나 들어오세요~",
+    text: "오늘 모각스에 참여하실 분들은 \nzep에 입장해주세요. 본 스레드에 오늘의 공부 목표를 답글로 적어주세요.\n\nZEP 링크 : https://zep.us/play/yBdEwz\n\nZEPZEP\n국모다it 메타버스 캠퍼스 | 쉽고 재미있는 메타버스 ZEP\n공부하고 싶다면 누구나 들어오세요~",
   };
 
   // Slack으로 메시지 전송
