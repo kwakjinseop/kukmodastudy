@@ -25,11 +25,19 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter }
 import { Progress } from "@/components/ui/progress"
 import DropdownMenu from "@/components/ui/DropDownMenu"
 import LoginBtn from "@/components/ui/LoginBtn"
+//import { getServerSession } from "next-auth"
+import { authOptions } from "./api/auth/[...nextauth]/route"
+import LogoutBtn from "@/components/ui/LogoutBtn"
 
 
 
-export default function studymainpage() {
-  
+
+export default async function studymainpage() {
+  //await getServerSession(authOptions)
+  //let session = await getServerSession(authOptions)
+  //console.log(session)
+  //console.log("NEXTAUTH_SECRET:", process.env.NEXTAUTH_SECRET);
+
   return (
     <div className="flex h-screen w-full flex-col">
       <header className="flex items-center justify-between bg-primary px-6 py-4 text-primary-foreground">
@@ -41,7 +49,13 @@ export default function studymainpage() {
             <SearchIcon className="h-5 w-5" />
             <span className="sr-only">Search</span>
           </Button>
-          <LoginBtn></LoginBtn>
+          
+          {/*
+            session && session.user  
+            ?<span>{session.user.name}<LogoutBtn></LogoutBtn></span>
+            :<LoginBtn></LoginBtn>
+          */}
+
         </div>
       </header>
       <div className="flex flex-1">
