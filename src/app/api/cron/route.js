@@ -1,4 +1,3 @@
-export const dynamic = "force-dynamic"; // static by default, unless reading the request
 import fetch from "node-fetch";
 
 // pages/api/send-slack-message.js
