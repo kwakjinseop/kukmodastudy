@@ -26,7 +26,7 @@ import { Progress } from "@/components/ui/progress"
 import DropdownMenu from "@/components/ui/DropDownMenu"
 import LoginBtn from "@/components/ui/LoginBtn"
 //import { getServerSession } from "next-auth"
-import { authOptions } from "./api/auth/[...nextauth]/route"
+//import { authOptions } from "./api/auth/[...nextauth]/route"
 import LogoutBtn from "@/components/ui/LogoutBtn"
 
 
